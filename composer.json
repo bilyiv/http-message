@@ -1,0 +1,22 @@
+{
+  "name": "bilyiv/http-message",
+  "description": "HTTP messages implementation following PSR-7",
+  "keywords": ["psr", "psr-7", "http", "http-message", "request", "response"],
+  "homepage": "https://github.com/bilyiv/http-message",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladyslav Bilyi",
+      "homepage": "https://github.com/bilyiv"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "psr/http-message": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bilyiv\\Http\\Message\\": "src/"
+    }
+  }
+}
